@@ -5,6 +5,16 @@ It provides a nice way (using the Composite Design Pattern) for creating menues.
 
 ## Installation
 
+* Install using [Composer](http://getcomposer.org):
+
+```json
+{
+  "require": {
+    "desarrollo-cespi/pm-js-cook-menu-plugin": "dev-master"
+  }
+}
+```
+
 * Install from repositories:
   
 ```bash
