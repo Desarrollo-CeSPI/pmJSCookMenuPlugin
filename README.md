@@ -15,11 +15,7 @@ It provides a nice way (using the Composite Design Pattern) for creating menues.
 }
 ```
 
-* Install from repositories:
-  
-```bash
-$ svn export http://svn.symfony-project.com/plugins/pmJSCookMenuPlugin
-```
+* Or install from git source.
 
 ## Usage
 
@@ -36,7 +32,7 @@ javascripts:    [/pmJSCookMenuPlugin/js/JSCookMenu.js, /pmJSCookMenuPlugin/js/Th
 ```php
 // in apps/<app>/templates/layout.php (BEFORE include_javascript call)
 <script>
-var myBase = "<?php echo $sf_request->getUriPrefix().$sf_request->getRelativeUrlRoot() ?>/pmJSCookMenuPlugin/images/ThemePanel/";
+var myBase = "<?php echo $sf_request->getRelativeUrlRoot() ?>/pmJSCookMenuPlugin/images/ThemePanel/";
 var cmBase = myBase;
 </script>
 ```
