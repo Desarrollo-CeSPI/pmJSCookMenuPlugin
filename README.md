@@ -10,7 +10,7 @@ It provides a nice way (using the Composite Design Pattern) for creating menues.
 ```json
 {
   "require": {
-    "desarrollo-cespi/pm-js-cook-menu-plugin": "dev-master"
+    "desarrollo-cespi/pm-j-s-cook-menu-plugin": "dev-master"
   }
 }
 ```

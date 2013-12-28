@@ -1,5 +1,5 @@
 {
-    "name": "desarrollo-cespi/pm-js-cook-menu-plugin",
+    "name": "desarrollo-cespi/pm-j-s-cook-menu-plugin",
     "description": "symfony 1 plugin that wraps JSCookMenu and provides an easy way of creating menues",
     "license": "MIT",
     "type": "symfony1-plugin",
